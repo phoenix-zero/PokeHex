@@ -1,4 +1,4 @@
-#include "menuFetch.h"
+#include "header/menuFetch.h"
 #include <QNetworkReply>
 
 Menufetch::Menufetch(QObject* parent) :

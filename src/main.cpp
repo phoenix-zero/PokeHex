@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "menuFetch.h"
+#include "header/menuFetch.h"
 
 int main(int argc, char *argv[])
 {
