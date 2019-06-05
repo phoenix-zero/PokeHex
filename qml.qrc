@@ -1,6 +1,10 @@
 <RCC>
+    <qresource prefix="/qml">
+        <file alias="main.qml">qml/main.qml</file>
+        <file alias="Pokelist.qml">qml/Pokelist.qml</file>
+        <file alias="details.qml">qml/details.qml</file>
+    </qresource>
     <qresource prefix="/">
         <file alias="qtquickcontrols2.conf">qml/qtquickcontrols2.conf</file>
-        <file alias="main.qml">qml/main.qml</file>
     </qresource>
 </RCC>

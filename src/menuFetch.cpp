@@ -10,7 +10,6 @@ Menufetch::Menufetch(QObject* parent) :
 
 void Menufetch::get(QString id)
 {
-    //QTextStream(stdout) << "Here";
     QUrl url("https://pokeapi.co/api/v2/pokemon/"+id);
     QNetworkRequest request;
     request.setUrl(url);

@@ -17,7 +17,11 @@ SOURCES += \
         src/menuFetch.cpp
 
 DISTFILES += \
-        src/main.qml
+        qml/main.qml \
+        qml/Pokelist.qml \
+        qml/details.qml \
+        README.md \
+        LICENSE
 
 RESOURCES += qml.qrc
 
